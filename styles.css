@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: #1F2937;
+}
+
+
+#main {
+    background-color: #1F2937;
+    width: 100%;
+    
+}
+
+h1 {
+    font-size: 30px;
+    color: #f9FAF8;
+    font-weight: bolder;
+}
+h3 {
+    font-size: 48px;
+    color: #f9FAF8;
+    font-weight: bolder;
+}
+
+p {
+    color: #f9FAF8;
+}
+button {
+    background-color: #3882f6;
+    color: #f9FAF8;
+    padding:10px;
+    font-size: 16px;
+}
+img {
+    border: #3882f6;
+    border-width: 10px;
+    border-style: outset;
+   border-radius: 20%;
+}
+
+#header {
+    border: 2px red solid;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+#header-logo-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px red solid;
+    background-color:#3882f6;
+    width: 30%;
+    box-sizing: border-box;
+    margin-left:5%;
+    margin-top:10px;
+    margin-bottom:.5%;
+    height:100%;
+}
+#header-link-container {
+    border: 2px rgb(168, 128, 128) solid;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height:100%;
+    margin-top:1.5%;
+}
+
+
+#header-link-container > a {
+    color: #3882f6;
+    padding: 10px;
+    width:100%;
+    border: 2px rgb(168, 128, 128) solid;
+}
+
+
+#banner-main {
+    border: 2px red solid;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#banner-div-left {
+    border: 2px red solid;
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+#banner-div-right{
+    border: 2px red solid;
+    justify-content: left;
+}
+#main-banner-img {
+    padding: 10px;
+    background-color: aqua;
+    width: 300px;
+    height: auto;
+}
+
+#hero-main {
+    border: 2px red solid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+}
+#hero-header-div {
+    border: 2px red solid;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+}
+#hero-img-container {
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    box-sizing: border-box;
+}
+.hero-img-div {
+    width:150px;
+    height:100%;
+    border: 2px red solid;
+    margin-inline-start: 10%;
+    display:flex;
+    flex-direction: column;
+}
+.hero-img {
+    width:150px;
+    border: 2px red solid;
+}
